@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap Responsive Layout Example</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.bundle.min.js"></script>
+<style>
+.container {
+    padding: 30px 30px 30px 30px;
+}
+
+.card {
+    padding: 10px 10px 10px 10px;
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brand">Fast Food</a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <a href="#" class="nav-item nav-link">Menu</a>
+                <a href="#" class="nav-item nav-link">Orders</a>
+                <a href="#" class="nav-item nav-link">Coupon</a>
+            </div>
+            <div class="navbar-nav ms-auto">
+                <a href="#" class="nav-item nav-link">Track Your Order</a>
+                <a href="#" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <button type="button" class="btn btn-warning">We dont make it until you order it.</button> 
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <img class="card-img-top" src="Images/burger.jpg" alt="Card image">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Yummy Burger</h4>
+                  <p class="card-text">sweet, sour, salt with a bit of crunch.</p>
+                  <a href="#" class="btn btn-danger">Add to Bag</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col">
+            <div class="card d-flex align-items-center">
+                <img class="card-img-top rounded-circle" src="Images/fries.jpg" alt="Card image" style="width:245px;height:245px;">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Crispy Fries</h4>
+                  <p class="card-text">made from fresh potatoes.</p>
+                  <a href="#" class="btn btn-danger">Add to Bag</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col">
+            <div class="card">
+                <img class="card-img-top" src="Images/fried chicken.jpeg" alt="Card image">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Fried Chicken</h4>
+                  <p class="card-text">crispy on the outside, juicy on the inside.</p>
+                  <a href="#" class="btn btn-danger">Add to Bag</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+            
+</div>
+     
+    <hr>
+    <footer>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Copyright &copy PLMUN-CITCS; 2023 @Associste in Computer Technology</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <a href="#" class="text-dark">Terms of Use</a>
+                <span class="text-muted mx-2">|</span>
+                <a href="#" class="text-dark">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
